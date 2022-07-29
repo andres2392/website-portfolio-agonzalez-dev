@@ -10164,7 +10164,12 @@ textarea.form-control {
 
 @media (max-width: 560px) {
 
-  
+  .grid-item {
+    width: 100%;
+  }
+  .section-body{
+    overflow: hidden;
+  }
   .container {
     padding: 0 2rem;
   }
