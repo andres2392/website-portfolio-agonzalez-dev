@@ -10080,6 +10080,7 @@ textarea.form-control {
 
   .skill-bar {
     height: 6px;
+    width: 100%;
   }
 
   .about .column-1:before {
@@ -10091,7 +10092,6 @@ textarea.form-control {
     width: 230px;
     left: 65%;
   }
-
 
 }
 
@@ -10163,10 +10163,19 @@ textarea.form-control {
 }
 
 @media (max-width: 560px) {
+
+  
+  .container {
+    padding: 0 2rem;
+  }
   .about .text {
     margin-top: 0.7rem;
   }
 
+  .skill-bar {
+    height: 6px;
+    width: 100%;
+  }
 }
 
 
